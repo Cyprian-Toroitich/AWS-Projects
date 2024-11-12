@@ -44,11 +44,10 @@ In this project, an S3 bucket is configured to host a static website, with publi
 
 ---
 
-### Configuring Bucket Policy for Public Access
-1. **Objective**: Set up automatic public read access for all objects in the bucket.
+### Deploy using AWS Amplify
+1. **Objective**: Set up automatic deployment using AWS Amplify.
 2. **Actions**:
-   - Configured a bucket policy to grant **read-only permissions** to public, anonymous users.
-   - Verified that all uploaded objects are publicly accessible without additional configurations.
+   - Autamitacally create an Amplify App that deploys the website for us.
 
 ---
 

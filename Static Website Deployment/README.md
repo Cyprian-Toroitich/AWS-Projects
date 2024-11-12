@@ -8,7 +8,7 @@ This project demonstrates how to host a static website using Amazon S3 with addi
 - [Setup and Configuration](#setup-and-configuration)
   - [Creating an S3 Bucket for Hosting](#task-2-creating-an-s3-bucket-for-hosting)
   - [Uploading Content to the S3 Bucket](#task-3-uploading-content-to-the-s3-bucket)
-  - [Deploy website using AWS Amplify](#task-4-configuring-bucket-policy-for-public-access)
+  - [Deploy website using AWS Amplify](#task-4-Deploy-using-AWS-Amplify)
   - [Enabling Versioning](#task-5-enabling-versioning)
   - [Setting Lifecycle Policies](#task-6-setting-lifecycle-policies)
   - [Enabling Cross-Region Replication](#task-7-enabling-cross-region-replication)

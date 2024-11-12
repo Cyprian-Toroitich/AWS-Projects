@@ -41,8 +41,6 @@ In this project, an S3 bucket is configured to host a static website, with publi
 2. **Actions**:
    - Uploaded `index.html`, CSS, and images to the bucket.
    - Verified the setup by accessing the website through the S3 endpoint.
-   - 
-![Image of bucket with content](Static Website Deployment/images/bucket_page.png)
 
 ---
 

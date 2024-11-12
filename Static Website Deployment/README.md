@@ -3,9 +3,9 @@
 This project demonstrates how to host a static website using Amazon S3 with additional features like versioning, lifecycle policies, and cross-Region replication to enhance availability, durability, and cost efficiency. The website serves as an online presence for a café.
 
 ## Table of Contents
-(#Overview)
-Technologies Used
-Setup and Configuration
+[Overview](#Overview)
+[Technologies Used](#Technologies Used)
+[Setup and Configuration](#Setup and Configuration)
 Task 1: Extracting Website Files
 Task 2: Creating an S3 Bucket for Hosting
 Task 3: Uploading Content to the S3 Bucket
@@ -13,11 +13,13 @@ Task 4: Configuring Bucket Policy for Public Access
 Task 5: Enabling Versioning
 Task 6: Setting Lifecycle Policies
 Task 7: Enabling Cross-Region Replication
-Summary
-Overview
+[Summary](#Summary)
+
+
+### Overview
 In this project, an S3 bucket is configured to host a static website, with public access enabled. Advanced features like versioning, lifecycle management, and cross-Region replication were also added to improve functionality and durability.
 
-Technologies Used
+### Technologies Used
 Amazon S3: Primary service for file storage and static website hosting.
 IAM (Identity and Access Management): Used for setting permissions for cross-Region replication.
 Setup and Configuration
@@ -61,7 +63,7 @@ Actions:
 Created a second S3 bucket in another AWS Region and enabled versioning on it.
 Enabled cross-Region replication on the source bucket with the CafeRole IAM role for required permissions.
 Configured the replication rule to replicate all objects from the source to the destination bucket.
-Summary
+### Summary
 This project demonstrates how to host a static website on Amazon S3 with additional features:
 
 Static Website Hosting: Configured the S3 bucket to serve as a public static website.

@@ -3,7 +3,7 @@
 This project demonstrates how to host a static website using Amazon S3 with additional features like versioning, lifecycle policies, and cross-Region replication to enhance availability, durability, and cost efficiency. The website serves as an online presence for a café.
 
 ## Table of Contents
-[This is the link text](#Overview)
+[Overview]
 Technologies Used
 Setup and Configuration
 Task 1: Extracting Website Files

@@ -6,13 +6,12 @@ This project demonstrates how to host a static website using Amazon S3 with addi
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Setup and Configuration](#setup-and-configuration)
-  - [Task 1: Extracting Website Files](#task-1-extracting-website-files)
-  - [Task 2: Creating an S3 Bucket for Hosting](#task-2-creating-an-s3-bucket-for-hosting)
-  - [Task 3: Uploading Content to the S3 Bucket](#task-3-uploading-content-to-the-s3-bucket)
-  - [Task 4: Configuring Bucket Policy for Public Access](#task-4-configuring-bucket-policy-for-public-access)
-  - [Task 5: Enabling Versioning](#task-5-enabling-versioning)
-  - [Task 6: Setting Lifecycle Policies](#task-6-setting-lifecycle-policies)
-  - [Task 7: Enabling Cross-Region Replication](#task-7-enabling-cross-region-replication)
+  - [Creating an S3 Bucket for Hosting](#task-2-creating-an-s3-bucket-for-hosting)
+  - [Uploading Content to the S3 Bucket](#task-3-uploading-content-to-the-s3-bucket)
+  - [Configuring Bucket Policy for Public Access](#task-4-configuring-bucket-policy-for-public-access)
+  - [Enabling Versioning](#task-5-enabling-versioning)
+  - [Setting Lifecycle Policies](#task-6-setting-lifecycle-policies)
+  - [Enabling Cross-Region Replication](#task-7-enabling-cross-region-replication)
 - [Summary](#summary)
 
 ---
@@ -28,15 +27,7 @@ In this project, an S3 bucket is configured to host a static website, with publi
 
 ## Setup and Configuration
 
-### Task 1: Extracting Website Files
-1. **Objective**: Prepare the HTML, CSS, and image files for the website.
-2. **Actions**:
-   - Downloaded the `.zip` file with the website assets.
-   - Extracted the files to obtain the `index.html` file and folders for CSS and images.
-
----
-
-### Task 2: Creating an S3 Bucket for Hosting
+### Creating an S3 Bucket for Hosting
 1. **Objective**: Create an S3 bucket configured for static website hosting.
 2. **Actions**:
    - Created an S3 bucket in **N. Virginia (us-east-1)** Region.
@@ -45,7 +36,7 @@ In this project, an S3 bucket is configured to host a static website, with publi
 
 ---
 
-### Task 3: Uploading Content to the S3 Bucket
+### Uploading Content to the S3 Bucket
 1. **Objective**: Upload the website files to S3 for hosting.
 2. **Actions**:
    - Uploaded `index.html`, CSS, and images to the bucket.
@@ -53,7 +44,7 @@ In this project, an S3 bucket is configured to host a static website, with publi
 
 ---
 
-### Task 4: Configuring Bucket Policy for Public Access
+### Configuring Bucket Policy for Public Access
 1. **Objective**: Set up automatic public read access for all objects in the bucket.
 2. **Actions**:
    - Configured a bucket policy to grant **read-only permissions** to public, anonymous users.
@@ -61,7 +52,7 @@ In this project, an S3 bucket is configured to host a static website, with publi
 
 ---
 
-### Task 5: Enabling Versioning
+### Enabling Versioning
 1. **Objective**: Enable versioning to keep track of changes.
 2. **Actions**:
    - Enabled versioning on the S3 bucket.
@@ -70,7 +61,7 @@ In this project, an S3 bucket is configured to host a static website, with publi
 
 ---
 
-### Task 6: Setting Lifecycle Policies
+### Setting Lifecycle Policies
 1. **Objective**: Manage older versions to optimize storage costs.
 2. **Actions**:
    - Configured **two separate lifecycle rules**:
@@ -80,7 +71,7 @@ In this project, an S3 bucket is configured to host a static website, with publi
 
 ---
 
-### Task 7: Enabling Cross-Region Replication
+### Enabling Cross-Region Replication
 1. **Objective**: Set up cross-Region replication for redundancy and disaster recovery.
 2. **Actions**:
    - Created a second S3 bucket in another AWS Region and enabled versioning on it.

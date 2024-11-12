@@ -4,8 +4,11 @@ This project demonstrates how to host a static website using Amazon S3 with addi
 
 ## Table of Contents
 [Overview](#Overview)
-[Technologies Used](#Technologies Used)
-[Setup and Configuration](#Setup and Configuration)
+
+[Technologies Used](#TechnologiesUsed)
+
+[Setup and Configuration](#SetupandConfiguration)
+
 Task 1: Extracting Website Files
 Task 2: Creating an S3 Bucket for Hosting
 Task 3: Uploading Content to the S3 Bucket
@@ -13,6 +16,7 @@ Task 4: Configuring Bucket Policy for Public Access
 Task 5: Enabling Versioning
 Task 6: Setting Lifecycle Policies
 Task 7: Enabling Cross-Region Replication
+
 [Summary](#Summary)
 
 
@@ -22,7 +26,8 @@ In this project, an S3 bucket is configured to host a static website, with publi
 ### Technologies Used
 Amazon S3: Primary service for file storage and static website hosting.
 IAM (Identity and Access Management): Used for setting permissions for cross-Region replication.
-Setup and Configuration
+
+### Setup and Configuration
 Task 1: Extracting Website Files
 Objective: Prepare the HTML, CSS, and image files for the website.
 Actions:

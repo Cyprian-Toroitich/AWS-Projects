@@ -6,12 +6,12 @@ This project involves hosting a dynamic café website using an EC2 instance with
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Setup and Configuration](#setup-and-configuration)
-  - [Task 2: Connecting to the IDE on the EC2 Instance](#task-2-connecting-to-the-ide-on-the-ec2-instance)
-  - [Task 3: Analyzing the LAMP Stack Environment and Web Server Accessibility](#task-3-analyzing-the-lamp-stack-environment-and-web-server-accessibility)
-  - [Task 4: Installing the Café Application](#task-4-installing-the-café-application)
-  - [Task 5: Testing the Web Application](#task-5-testing-the-web-application)
-  - [Task 6: Creating an AMI and Launching a New EC2 Instance](#task-6-creating-an-ami-and-launching-a-new-ec2-instance)
-  - [Task 7: Verifying the New Café Instance](#task-7-verifying-the-new-café-instance)
+  - [Connecting to the IDE on the EC2 Instance](#task-2-connecting-to-the-ide-on-the-ec2-instance)
+  - [Analyzing the LAMP Stack Environment and Web Server Accessibility](#task-3-analyzing-the-lamp-stack-environment-and-web-server-accessibility)
+  - [Installing the Café Application](#task-4-installing-the-café-application)
+  - [Testing the Web Application](#task-5-testing-the-web-application)
+  - [Creating an AMI and Launching a New EC2 Instance](#task-6-creating-an-ami-and-launching-a-new-ec2-instance)
+  - [Verifying the New Café Instance](#task-7-verifying-the-new-café-instance)
 - [Summary](#summary)
 
 ---
